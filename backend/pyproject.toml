@@ -1,0 +1,13 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.14"
+dependencies = [
+    "debug>=0.3.2",
+    "django>=6.0",
+    "django-environ>=0.12.0",
+    "faker>=38.2.0",
+    "phonenumbers>=9.0.19",
+    "python-dotenv>=1.2.1",
+]
