@@ -258,4 +258,4 @@ cython_debug/
 ############################################
 
 # folders that I specified
-backend/management/
+backend/tickets/management/

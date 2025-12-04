@@ -32,8 +32,14 @@ INSTALLED_APPS = [
     'tickets.apps.TicketsConfig',
 
     # third party apps
-    'phonenumber_field',
+    'rest_framework'
 ]
+
+
+# Used for automatic filtering
+REST_FRAMEWORK = {
+    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend']
+}
 
 
 MIDDLEWARE = [
